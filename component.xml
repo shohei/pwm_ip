@@ -266,7 +266,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>34e4b406</spirit:value>
+            <spirit:value>7ad7cd48</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -282,7 +282,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>34e4b406</spirit:value>
+            <spirit:value>7ad7cd48</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -708,7 +708,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>PWM_COUNTER_MAX</spirit:name>
         <spirit:displayName>Pwm Counter Max</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.PWM_COUNTER_MAX">128</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.PWM_COUNTER_MAX">1024</spirit:value>
       </spirit:modelParameter>
     </spirit:modelParameters>
   </spirit:model>
@@ -733,7 +733,7 @@
       <spirit:file>
         <spirit:name>hdl/pwm_v1_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_d51cc693</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_e141301b</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -855,7 +855,7 @@
     <spirit:parameter>
       <spirit:name>PWM_COUNTER_MAX</spirit:name>
       <spirit:displayName>Pwm Counter Max</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PWM_COUNTER_MAX" spirit:minimum="0" spirit:maximum="65535" spirit:rangeType="long">128</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PWM_COUNTER_MAX" spirit:minimum="0" spirit:maximum="65535" spirit:rangeType="long">1024</spirit:value>
     </spirit:parameter>
   </spirit:parameters>
   <spirit:vendorExtensions>
@@ -867,8 +867,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>pwm_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>3</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2017-12-10T11:55:53Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>5</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2017-12-11T00:24:30Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="user.org:user:pwm:1.0_ARCHIVE_LOCATION">/home/shohei/Downloads/Zybo/dai9sho/disp_ip/pwm_1.0</xilinx:tag>
       </xilinx:tags>
@@ -877,10 +877,10 @@
       <xilinx:xilinxVersion>2017.3.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="b1c5cd83"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="021b6c73"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="907381b5"/>
-      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="6df158f6"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="714f5e1d"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="05866828"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="d0dd2649"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="e1f8c940"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="17651449"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

@@ -4,7 +4,7 @@
 	module pwm_v1_0 #
 	(
 		// Users to add parameters here
-         parameter integer PWM_COUNTER_MAX = 128,
+         parameter integer PWM_COUNTER_MAX = 1024,
 		// User parameters ends
 		// Do not modify the parameters beyond this line
 
@@ -49,7 +49,8 @@
 // Instantiation of Axi Bus Interface S00_AXI
 	pwm_v1_0_S00_AXI # ( 
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
-		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
+		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH),
+		.PWM_COUNTER_MAX(PWM_COUNTER_MAX)
 	) pwm_v1_0_S00_AXI_inst (
 	    .PWM0(PWM0),
         .PWM1(PWM1),
